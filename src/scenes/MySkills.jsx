@@ -51,7 +51,7 @@ const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
         <div className='md:flex justify-between mt-16 md:mb-96 gap-32'>
             {/* experience */}
             <motion.div
-             className='md:w-1/3 mt-10 md:mb-32'
+             className='md:w-1/3 mt-10 md:mb-'
              initial="hidden"
              whileInView="visible"
              viewport={{ once: true, amount: 0.5 }}
